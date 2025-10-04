@@ -1,0 +1,67 @@
+/* Umumiy fon */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #5f2c82, #49a09d);
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+/* Markaziy container */
+.container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  padding: 2rem 3rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+/* Hisob ko'rsatkich */
+#count {
+  font-size: 4rem;
+  color: white;
+  margin-bottom: 1.5rem;
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* Tugmalar qatori */
+.buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+/* Tugma */
+.btn {
+  font-size: 2rem;
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease;
+}
+
+/* Hover effekti */
+.btn:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+}
+
+/* "+" tugma */
+.add {
+  background: linear-gradient(135deg, #9d50bb, #6e48aa);
+}
+
+/* "-" tugma */
+.remove {
+  background: linear-gradient(135deg, #6e48aa, #9d50bb);
+}
