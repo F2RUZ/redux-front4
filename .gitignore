@@ -1,0 +1,14 @@
+# Node.js dependencies
+node_modules/
+
+# Build files
+dist/
+build/
+
+# Env files (parollar va maxfiy ma'lumotlar uchun)
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db

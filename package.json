@@ -1,0 +1,23 @@
+{
+  "name": "redux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/F2RUZ/redux-front4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/F2RUZ/redux-front4/issues"
+  },
+  "homepage": "https://github.com/F2RUZ/redux-front4#readme",
+  "dependencies": {
+    "redux": "^5.0.1"
+  }
+}
